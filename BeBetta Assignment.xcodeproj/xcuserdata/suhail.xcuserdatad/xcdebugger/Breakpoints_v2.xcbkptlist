@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D333F969-C3CA-4A22-8EFC-B5BDDC990E53"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3B20F4A-E817-4050-A46D-20918A2334B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeBetta Assignment/Views/Custom Views/TimesButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "buttonsTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3B20F4A-E817-4050-A46D-20918A2334B4 - c84e6796bb990d42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in BeBetta_Assignment.TimesButtons.buttonsTapped(__C.UIControl) -&gt; ()"
+                  moduleName = "BeBetta Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhail/Desktop/BeBetta%20Assignment/BeBetta%20Assignment/Views/Custom%20Views/TimesButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "D3B20F4A-E817-4050-A46D-20918A2334B4 - c84e6796bb990d2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in BeBetta_Assignment.TimesButtons.buttonsTapped(__C.UIControl) -&gt; ()"
+                  moduleName = "BeBetta Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhail/Desktop/BeBetta%20Assignment/BeBetta%20Assignment/Views/Custom%20Views/TimesButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "932">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A92BD0C0-9D1F-4D99-A228-1A76AA2E0B34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeBetta Assignment/Views/Custom Views/TimesButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "buttonsTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A92BD0C0-9D1F-4D99-A228-1A76AA2E0B34 - c84e6796bb990d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in BeBetta_Assignment.TimesButtons.buttonsTapped(__C.UIControl) -&gt; ()"
+                  moduleName = "BeBetta Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhail/Desktop/BeBetta%20Assignment/BeBetta%20Assignment/Views/Custom%20Views/TimesButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1456">
+               </Location>
+               <Location
+                  uuid = "A92BD0C0-9D1F-4D99-A228-1A76AA2E0B34 - c84e6796bb990c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in BeBetta_Assignment.TimesButtons.buttonsTapped(__C.UIControl) -&gt; ()"
+                  moduleName = "BeBetta Assignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhail/Desktop/BeBetta%20Assignment/BeBetta%20Assignment/Views/Custom%20Views/TimesButtons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBC291F2-C02F-4FCD-A633-4D56BF6BA3AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeBetta Assignment/Views/Custom Views/TimesButtons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "buttonsTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

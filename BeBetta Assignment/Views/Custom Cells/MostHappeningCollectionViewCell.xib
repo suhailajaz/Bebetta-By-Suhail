@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MostHappeningCollectionViewCell" customModule="BeBetta_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="55" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="55" height="82"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Brq-bl-pIS">
+                        <rect key="frame" x="0.0" y="0.0" width="55" height="82"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="th1-ad-bPd">
+                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atletico" translatesAutoresizingMaskIntoConstraints="NO" id="GPS-Te-0R0">
+                                        <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GPS-Te-0R0" firstAttribute="leading" secondItem="th1-ad-bPd" secondAttribute="leading" id="7CK-dH-uVo"/>
+                                    <constraint firstAttribute="width" constant="55" id="9nM-8f-cHg"/>
+                                    <constraint firstAttribute="trailing" secondItem="GPS-Te-0R0" secondAttribute="trailing" id="IeS-H4-V8O"/>
+                                    <constraint firstItem="GPS-Te-0R0" firstAttribute="top" secondItem="th1-ad-bPd" secondAttribute="top" id="SBm-nk-8kA"/>
+                                    <constraint firstAttribute="bottom" secondItem="GPS-Te-0R0" secondAttribute="bottom" id="ZMm-u4-4or"/>
+                                    <constraint firstAttribute="height" constant="55" id="e9x-4h-a88"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iL9-YC-Erv">
+                                <rect key="frame" x="0.0" y="55" width="55" height="27"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USAB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKb-g5-8nw">
+                                        <rect key="frame" x="13.333333333333334" y="7.6666666666666643" width="28.666666666666664" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="bKb-g5-8nw" firstAttribute="centerX" secondItem="iL9-YC-Erv" secondAttribute="centerX" id="7LW-qx-crj"/>
+                                    <constraint firstItem="bKb-g5-8nw" firstAttribute="centerY" secondItem="iL9-YC-Erv" secondAttribute="centerY" id="T5m-gK-DC1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.1803921568627451" blue="0.21568627450980393" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="th1-ad-bPd" firstAttribute="top" secondItem="Brq-bl-pIS" secondAttribute="top" id="3Wf-jS-Tgf"/>
+                            <constraint firstItem="iL9-YC-Erv" firstAttribute="top" secondItem="th1-ad-bPd" secondAttribute="bottom" id="Dzn-Pq-kiq"/>
+                            <constraint firstAttribute="trailing" secondItem="iL9-YC-Erv" secondAttribute="trailing" id="bE0-h5-BS6"/>
+                            <constraint firstItem="iL9-YC-Erv" firstAttribute="leading" secondItem="Brq-bl-pIS" secondAttribute="leading" id="bTR-zu-fAC"/>
+                            <constraint firstAttribute="trailing" secondItem="th1-ad-bPd" secondAttribute="trailing" id="ksH-Rz-JY9"/>
+                            <constraint firstAttribute="bottom" secondItem="iL9-YC-Erv" secondAttribute="bottom" id="uoI-kt-8GL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Brq-bl-pIS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BGd-6w-k0I"/>
+                <constraint firstItem="Brq-bl-pIS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hvI-df-KP0"/>
+                <constraint firstAttribute="trailing" secondItem="Brq-bl-pIS" secondAttribute="trailing" id="kJj-Lb-KlI"/>
+                <constraint firstAttribute="bottom" secondItem="Brq-bl-pIS" secondAttribute="bottom" id="w0Y-wR-oF5"/>
+            </constraints>
+            <size key="customSize" width="206" height="102"/>
+            <connections>
+                <outlet property="imgTeam" destination="GPS-Te-0R0" id="js7-iT-XUC"/>
+                <outlet property="lblName" destination="bKb-g5-8nw" id="lXl-RN-IPa"/>
+                <outlet property="vwBorder" destination="th1-ad-bPd" id="iCA-gA-6dM"/>
+            </connections>
+            <point key="canvasLocation" x="159.54198473282443" y="27.464788732394368"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="atletico" width="22" height="29"/>
+    </resources>
+</document>

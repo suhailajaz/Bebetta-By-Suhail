@@ -1,0 +1,180 @@
+[
+    {
+    
+    "sport_name" : "Football",
+    "sport_icon" : "football",
+    "color" : "white",
+    "first_team" : "Espanyol",
+    "second_team" : "Atl. Madrid",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "2",
+    "score_team_2" : "0",
+    "minutes" : "57 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Cricket",
+    "sport_icon" : "newBat",
+    "color" : "white",
+    "first_team" : "Barcelona",
+    "second_team" : "R. Madrid",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "3",
+    "score_team_2" : "1",
+    "minutes" : "37 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Basketball",
+    "sport_icon" : "basketball",
+    "color" : "green",
+    "first_team" : "Chelsea",
+    "second_team" : "Arsenal",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "5",
+    "score_team_2" : "4",
+    "minutes" : "88 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Tennis",
+    "sport_icon" : "tennis",
+    "color" : "purple",
+    "first_team" : "West Ham",
+    "second_team" : "Everton",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "0",
+    "score_team_2" : "0",
+    "minutes" : "63 min",
+    "highlight_image": "Highlights"
+    
+}, {
+    
+    "sport_name" : "Football",
+    "sport_icon" : "football",
+    "color" : "white",
+    "first_team" : "Liverpool",
+    "second_team" : "Mancity",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "4",
+    "score_team_2" : "5",
+    "minutes" : "77 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Cricket",
+    "sport_icon" : "newBat",
+    "color" : "red",
+    "first_team" : "Juventus",
+    "second_team" : "Inter",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "4",
+    "score_team_2" : "3",
+    "minutes" : "79 min",
+    "highlight_image": "Highlights"
+    
+},
+    
+    {
+    
+    "sport_name" : "Tennis",
+    "sport_icon" : "tennis",
+    "color" : "purple",
+    "first_team" : "West Ham",
+    "second_team" : "Everton",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "0",
+    "score_team_2" : "0",
+    "minutes" : "63 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Basketball",
+    "sport_icon" : "basketball",
+    "color" : "green",
+    "first_team" : "Girona",
+    "second_team" : "Atl. Bilbao",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "2",
+    "score_team_2" : "3",
+    "minutes" : "86 min",
+    "highlight_image": "Highlights"
+    
+},{
+    
+    "sport_name" : "Football",
+    "sport_icon" : "football",
+    "color" : "white",
+    "first_team" : "PSG",
+    "second_team" : "Monaco",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "3",
+    "score_team_2" : "3",
+    "minutes" : "45+1 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Tennis",
+    "sport_icon" : "tennis",
+    "color" : "yellow",
+    "first_team" : "Rangers",
+    "second_team" : "Ajax",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "4",
+    "score_team_2" : "1",
+    "minutes" : "69 min",
+    "highlight_image": "Highlights"
+    
+}, {
+    
+    "sport_name" : "Football",
+    "sport_icon" : "football",
+    "color" : "white",
+    "first_team" : "Man. Utd",
+    "second_team" : "Aston Villa",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "3",
+    "score_team_2" : "0",
+    "minutes" : "51 min",
+    "highlight_image": "Highlights"
+    
+},
+    {
+    
+    "sport_name" : "Cricket",
+    "sport_icon" : "newBat",
+    "color" : "red",
+    "first_team" : "Dortmund",
+    "second_team" : "Wolfsburg",
+    "first_team_icon" : "espanyol ",
+    "second_team_icon" : "atletico",
+    "score_team_1" : "3",
+    "score_team_2" : "3",
+    "minutes" : "70 min",
+    "highlight_image": "Highlights"
+    
+}
+]

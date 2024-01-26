@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MatchPreviewCollectionViewCell" customModule="BeBetta_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Highlights" translatesAutoresizingMaskIntoConstraints="NO" id="CxG-Uv-NV5">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="190"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:35" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4O-hy-hoQ">
+                        <rect key="frame" x="313" y="150" width="65" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Ew6-Cn-Ubk"/>
+                            <constraint firstAttribute="width" constant="65" id="aWa-Xs-uq0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="CxG-Uv-NV5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7cc-6s-3a0"/>
+                <constraint firstAttribute="trailing" secondItem="l4O-hy-hoQ" secondAttribute="trailing" constant="12" id="L1u-iI-niM"/>
+                <constraint firstAttribute="trailing" secondItem="CxG-Uv-NV5" secondAttribute="trailing" id="avs-vI-le3"/>
+                <constraint firstAttribute="bottom" secondItem="l4O-hy-hoQ" secondAttribute="bottom" constant="10" id="dkY-c6-1af"/>
+                <constraint firstItem="CxG-Uv-NV5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ef9-4n-t5e"/>
+                <constraint firstAttribute="bottom" secondItem="CxG-Uv-NV5" secondAttribute="bottom" id="leq-AC-JGW"/>
+            </constraints>
+            <connections>
+                <outlet property="imgHighlight" destination="CxG-Uv-NV5" id="roq-P2-O4r"/>
+            </connections>
+            <point key="canvasLocation" x="-81" y="21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Highlights" width="250" height="150"/>
+    </resources>
+</document>
