@@ -661,8 +661,25 @@
                     <view key="view" contentMode="scaleToFill" id="LB0-NR-rUH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app is made by suhail for evaluation at BeBetta." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nt-8q-AxD">
+                                <rect key="frame" x="10" y="326" width="373" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="GwK-6P-qLF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nkp-YT-gLP"/>
                         <color key="backgroundColor" red="0.062745098039215685" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3nt-8q-AxD" firstAttribute="centerX" secondItem="LB0-NR-rUH" secondAttribute="centerX" id="AtL-rP-olR"/>
+                            <constraint firstItem="3nt-8q-AxD" firstAttribute="centerY" secondItem="LB0-NR-rUH" secondAttribute="centerY" id="Tq1-jd-YCR"/>
+                            <constraint firstItem="3nt-8q-AxD" firstAttribute="leading" secondItem="nkp-YT-gLP" secondAttribute="leading" constant="10" id="YiE-iS-bKT"/>
+                            <constraint firstItem="nkp-YT-gLP" firstAttribute="trailing" secondItem="3nt-8q-AxD" secondAttribute="trailing" constant="10" id="rws-EQ-4Xu"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="account" id="8EB-4n-ex2"/>
                 </viewController>
